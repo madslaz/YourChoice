@@ -44,7 +44,7 @@ def alabama():
     return render_template('statestyle.html', state=state, info=info, email=email, map=map)
 
 @app.route('/alaska')
-def alabama():
+def alaska():
     state = {'statename': 'Alaska'}
     info = {
         'information': "<strong> Accessible: </strong>" 
