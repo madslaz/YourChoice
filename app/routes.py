@@ -942,7 +942,7 @@ def pennsylvania():
     map = {'gmap' : "https://www.google.com/maps/d/u/0/embed?mid=1Nt3KWVi__AK-CosyNCHIp9y4SWXxe-vg"}
     return render_template('statestyle.html', state=state, info=info, email=email, map=map)
 
-@app.route('/Oregon')
+@app.route('/oregon')
 def Oregon():
     state = {'statename': 'Oregon'}
     info = {
