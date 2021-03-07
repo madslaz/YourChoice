@@ -10,7 +10,7 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
-  top: 597px;
+  top: 650px;
   position: absolute;
   left:50%;
   transform: translateX(-50%);
@@ -85,7 +85,7 @@
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-  top: 750px;
+  top: 1400px;
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
@@ -167,14 +167,6 @@
 </div>
 <br>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-</div>
-
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -202,7 +194,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-  </center>
-  </h1>
 </script>
+   </h1>
+  </center>
 {% endblock %}
