@@ -333,7 +333,7 @@ def kansas():
     map = {'gmap' : "https://www.google.com/maps/d/u/0/embed?mid=1ruSOz-zgZii7y1MIkVHsPtm_WntXb2E0"}
     return render_template('statestyle.html', state=state, info=info, email=email, map=map)
 
-@app.route('/wyominggg')
+@app.route('/wyoming')
 def wyoming():
     state = {'statename': 'Wyoming'}
     info = {
