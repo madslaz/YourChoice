@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT your-choice-athenahacks:your-choice-athenahacks
+web: gunicorn --bind 0.0.0.0:$PORT app:app
