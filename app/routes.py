@@ -669,7 +669,7 @@ def ohio():
     map = {'gmap' : "https://www.google.com/maps/d/u/0/embed?mid=1MP4E0_Iu89nabVjtZ_mecuP9-7mSx1rn"}
     return render_template('statestyle.html', state=state, info=info, email=email, map=map)
 
-@app.route('/oklahoma')
+@app.route('/Oklahoma')
 def oklahoma():
     state = {'statename': 'Oklahoma'}
     info = {
