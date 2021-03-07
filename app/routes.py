@@ -61,7 +61,7 @@ def alaska():
 def arizona():
     state = {'statename': 'Arizona'}
     info = {
-        'information': "<strong> Restricted </strong>" 
+        'information': "<strong> Restricted: </strong>" 
                        "\n Abortion is legal in this state, but there are many state restrictions that make it difficult to access abortion. "
                        "\n \n  <strong> Restrictions: </strong>"
                        "\n   <i> Parental Consent Required </i> \n Parental consent "
@@ -83,7 +83,7 @@ def arizona():
 def arkansas():
     state = {'statename': 'Arkansas'}
     info = {
-        'information': "<strong> Severly Restricted </strong>" 
+        'information': "<strong> Severly Restricted: </strong>" 
                        "\n Abortion is legal in this state, but there are severe state restrictions that make it very difficult to access abortion. "
                        "\n \n  <strong> Restrictions: </strong>"
                         "\n   <i> 20 Week Abortion Ban </i> \n Parental consent "
@@ -109,7 +109,7 @@ def arkansas():
 def california():
     state = {'statename': 'California'}
     info = {
-        'information': "<strong> Abortion is legal in this state, there are few to no restrictions and abortion is accessible. </strong>" 
+        'information': "<strong> Accessible: </strong>" 
                        "\n Abortion is legal in this state, but there are many state restrictions that make it difficult to access abortion. "
                        "\n \n  <strong> Restrictions: </strong>"
                         "\n   <i> Viability </i> \n "
@@ -122,7 +122,7 @@ def california():
 def colorado():
     state = {'statename': 'Colorado'}
     info = {
-        'information': "<strong> Mostly Accessible </strong>" 
+        'information': "<strong> Mostly Accessible: </strong>" 
                        "\n Abortion is legal in this state, but there are some state restrictions that can limit abortion access. "
                        "\n \n  <strong> Restrictions: </strong>"
                        "\n   <i>State Medicaid Funding Prohibited </i> \n State Medicaid funding  "
@@ -141,7 +141,7 @@ def colorado():
 def connecticut():
     state = {'statename': 'Connecticut'}
     info = {
-        'information': "<strong> Accessible </strong>" 
+        'information': "<strong> Accessible: </strong>" 
                        "\n Abortion is legal in this state, but there are some state restrictions that can limit abortion access. "
                        "\n \n  <strong> Restrictions: </strong>"
                        "\n   <i>Viability </i> \n State Medicaid funding  "
@@ -154,7 +154,7 @@ def connecticut():
 def delaware():
     state = {'statename': 'Delaware'}
     info = {
-        'information': "<strong> Accessible </strong>" 
+        'information': "<strong> Accessible: </strong>" 
                        "\n Abortion is legal in this state, there are few to no restrictions and abortion is accessible."
                        "\n \n  <strong> Restrictions: </strong>"
                        "\n   <i>State Medicaid Funding Prohibited </i> \n State Medicaid funding  "
@@ -173,7 +173,7 @@ def delaware():
 def florida():
     state = {'statename': 'Florida'}
     info = {
-        'information': "<strong> Restricted </strong>" 
+        'information': "<strong> Restricted: </strong>" 
                        "\n Abortion is legal in this state, but there are many state restrictions that make it difficult to access abortion."
                        "\n \n  <strong> Restrictions: </strong>"
                         "\n   <i> Insurance Restrictions </i> \n "
@@ -192,7 +192,7 @@ def florida():
 def georgie():
     state = {'statename': 'Georgia'}
     info = {
-        'information': "<strong> Severely Restricted </strong>" 
+        'information': "<strong> Severely Restricted: </strong>" 
                        "\n Abortion is legal in this state, but there are severe state restrictions that make it very difficult to access abortion."
                        "\n \n  <strong> Restrictions: </strong>"
                         "\n   <i> Insurance Restrictions </i> \n "
@@ -215,7 +215,7 @@ def georgie():
 def hawaii():
     state = {'statename': 'Hawaii'}
     info = {
-        'information': "<strong> Accessible </strong>" 
+        'information': "<strong> Accessible: </strong>" 
                        "\n Abortion is legal in this state, there are few to no restrictions and abortion is accessible. "
                        "\n \n  <strong> Restrictions: </strong>"
                        "\n   <i>Viability </i> \n State Medicaid funding  "
@@ -228,7 +228,7 @@ def hawaii():
 def idaho():
     state = {'statename': 'Idaho'}
     info = {
-        'information': "<strong> Restricted </strong>" 
+        'information': "<strong> Restricted: </strong>" 
                        "\n Abortion is legal in this state, but there are many state restrictions that make it difficult to access abortion."
                        "\n \n  <strong> Restrictions: </strong>"
                         "\n   <i> Insurance Restrictions </i> \n "
@@ -251,7 +251,7 @@ def idaho():
 def illinois():
     state = {'statename': 'Illinois'}
     info = {
-        'information': "<strong> Accessible </strong>" 
+        'information': "<strong> Accessible: </strong>" 
                        "\n Abortion is legal in this state, there are few to no restrictions and abortion is accessible."
                        "\n \n  <strong> Restrictions: </strong>"
                         "\n   <i> Exchange insurance coverage restricted </i> \n "
@@ -272,7 +272,7 @@ def illinois():
 def indiana():
     state = {'statename': 'Indiana'}
     info = {
-        'information': "<strong> Severely Restricted </strong>" 
+        'information': "<strong> Severely Restricted: </strong>" 
                        "\n Abortion is legal in this state, but there are many state restrictions that make it very difficult to access abortion."
                        "\n \n  <strong> Restrictions: </strong>"
                         "\n   <i> Insurance Restrictions </i> \n "
@@ -295,7 +295,7 @@ def indiana():
 def iowa():
     state = {'statename': 'Iowa'}
     info = {
-        'information': "<strong> Restricted </strong>"
+        'information': "<strong> Restricted: </strong>"
                        "\n Abortion is legal in this state, but there are many state restrictions that make it very difficult to access abortion."
                        "\n \n  <strong> Restrictions: </strong>"
                        "\n   <i> State Medicaid Funding Prohibited </i> \n "
@@ -316,7 +316,7 @@ def iowa():
 def kansas():
     state = {'statename': 'Kansas'}
     info = {
-        'information': "<strong> Severely Restricted </strong>" 
+        'information': "<strong> Severely Restricted: </strong>" 
                        "\n Abortion is legal in this state, but there are many state restrictions that make it very difficult to access abortion."
                        "\n \n  <strong> Restrictions: </strong>"
                        " \n <i> 20 Week Abortion Ban  </i> \n "
