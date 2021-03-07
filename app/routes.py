@@ -282,8 +282,8 @@ def indiana():
                        "abortion. \n \n "
                         "<i> Judicial Bypass Available: </i> \n Minors who can't tell their parent about their "
                        "decision to have an abortion can file a petition to excuse them from required parental consent and/or "
-                       "notification requirements."
-                       "\n <i> 18 Hours Waiting Period </i> \n The patient must wait  "
+                       "notification requirements. \n \n"
+                       "<i> 18 Hours Waiting Period </i> \n The patient must wait  "
                        "18 hours between receiving state-mandated abortion counseling and obtaining an abortion.  \n \n "
                        "<i> Two-Trips Required </i> \n Due to mandatory consent and waiting period "
                        " requirements a person must make at least two trips to a health center in order to receive an abortion."}
