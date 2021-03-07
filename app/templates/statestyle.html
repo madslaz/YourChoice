@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Sacramento&display=swap');
+
+   body {
+      padding: 0%;
+      overflow-x: hidden;
+   }
+   * {
+      box-sizing: border-box;
+   }
+   .left, .right {
+      float: left;
+      width: 50%;
+      color: #361141;
+      padding: 0px;
+      height: 965px;
+      text-align: center;
+      overflow-x: hidden;
+   }
+   .left {
+      background-color: #EACFF2;
+
+   }
+   .right {
+      background-color: white;
+      line-height:0;
+   }
+   .container:after {
+      clear: both;
+   }
+    .button {
+        border: none;
+        vertical-align: top
+        color: #361141;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: #EACFF2;
+        font-family: 'Playfair Display'
+}
+
+h1 {
+    white-space: pre-line;
+    font-weight: normal;
+
+    }
+</style>
+
+
+<div class="banner">
+    <body>
+        <h1 style="text-align: center;font-size:30px; font-family:'Playfair Display'; color:#361141">{{state.statename}}</h1>
+            <div class="container">
+                <div class="left">
+                    <h1 style="text-align: center;font-size:30px; font-family:'Playfair Display'; color:#361141">
+                        {{info.information|safe}}
+                    </h1>
+                </div>
+                <div class="right" line-height = 0;>
+                    <h1 style="text-align: center;font-size:30px; font-family:'Playfair Display'; color:#361141"; >
+                        <button onclick="location.href='{{email.address}}';" class='button'>Click Here to Email Legislators About Abortion Laws in this State!</button>
+                    </h1>
+                    <iframe src = {{map.gmap}} width="640" height="480"> </iframe>
+                </div>
+            </div>
+    </body>
+</div>
+{% endblock %}
